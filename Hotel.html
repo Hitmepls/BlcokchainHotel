@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>จองโรงแรม</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="alert">
+        </div>
+        <div id="alertsuccess">
+        </div>
+        <button id="btnCheck" style="background-color: rgb(0, 255, 42);">แสดงผู้เข้าพัก</button> 
+        <table class="Classtable" style="width:100%;" >
+            <tr class="Classtr" >
+              <th class="Classth">Time</th>
+              <th class="Classth" >Room</th>
+              <th class="Classth">Owner (address)</th>
+            </tr>
+            <tr id="reslut1"></tr>
+            <tr id="reslut2"></tr>
+            <tr id="reslut3"></tr>
+            <tr id="reslut4"></tr>
+            <tr id="reslut5"></tr>
+            <tr id="reslut6"></tr>
+          </table>
+        <h1 style="text-align: center;">เลือกห้องพัก</h1>
+       
+        <table style="width:100%;height: 700px;">
+            <tr>
+                <th>
+                    <p>
+                        DELUXE1 ROOM
+                    </p>
+                    <img class="imagesize" src="/BlcokchainHotel/image/1.jpg">
+                    <div class="button_center">
+                        <button class="document" id="button1" value="DELUXE1">reserve</button>
+                    </div>
+                    <p>
+                        Price : 0.0001 ETH
+                    </p>
+
+                </th>
+                <th>
+                    <p>
+                        DELUXE2 ROOM
+                    </p>
+                    <img class="imagesize" src="/BlcokchainHotel/image/7.jpg">
+                    <div class="button_center">
+                        <button class="document" id="button2" value="DELUXE2">reserve</button>
+                    </div>
+                    <p>
+                        Price : 0.0002 ETH
+                    </p>
+                </th>
+
+                <th>
+                    <p>
+                    EXECUTIVE DELUXE1 ROOM
+                    </p>
+                    
+                    <img class="imagesize" src="/BlcokchainHotel/image/8.jpg">
+                    <div class="button_center">
+                        <button class="document" id="button3" value="EXECUTIVE DELUXE1">reserve</button>
+                    </div>
+                    <p>
+                        Price : 0.0005 ETH
+                    </p>
+                </th>
+            </tr>
+            <tr>
+
+                <th>
+                    <p>
+                        EXECUTIVE DELUXE2 ROOM
+                    </p>
+                    <img class="imagesize" src="/BlcokchainHotel/image/6.jpg">
+                    <div class="button_center">
+                        <button class="document" id="button4" value="EXECUTIVE DELUXE2">reserve</button>
+                    </div>
+                    <p>
+                        Price : 0.0006 ETH
+                    </p>
+                </th>
+                <th>
+                    <p>
+                        NOMAL1 ROOM
+                    </p>
+                    <img class="imagesize" src="/BlcokchainHotel/image/5.jpg">
+                    <div class="button_center">
+                        <button class="document" id="button5" value="NOMAL1">reserve</button>
+                    </div>
+                    <p>
+                        Price : 0.00005 ETH
+                    </p>
+                </th>
+                <th>
+                    <p>
+                        NOMAL2 ROOM
+                    </p><img class="imagesize" src="/BlcokchainHotel/image/2.jpg">
+                    <div class="button_center">
+                        <button class="document" id="button6" value="NOMAL2">reserve</button>
+                    </div>
+                    <p>
+                        Price : 0.00005 ETH
+                    </p>
+                </th>
+            </tr>
+        </table>
+        <br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script>
+    <script src="/BlcokchainHotel/Script.js">
+    </script>
+</body>
+
+</html>
