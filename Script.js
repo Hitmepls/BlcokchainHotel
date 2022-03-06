@@ -218,9 +218,9 @@ $("#button3").click(function () {
   ResEvent();
 });
 
-$("#buttonภ").click(function () {
+$("#button4").click(function () {
   window.contract.methods.reserveRoom(t.getHours()+":"+t.getMinutes(),$("#button4").val())
-  .send({from: currentAccount,value:500000000000000},function (error, result) {
+  .send({from: currentAccount,value:600000000000000},function (error, result) {
     if (!error) {
       $("#result").html(result.toString());
     } else console.error(error);
